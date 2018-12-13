@@ -24,7 +24,7 @@ namespace ConsoleEsercitazioni
 
             var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
             plainText = System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
-            Console.WriteLine(plainText);
+            Console.WriteLine(plainText); 
         }
     }
 }
